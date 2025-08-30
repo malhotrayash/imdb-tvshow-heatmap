@@ -1,12 +1,30 @@
-# React + Vite
+# 🎬 IMDb TV Show Heatmap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive visualization of episode ratings across all seasons of a TV show, displayed as a heatmap.
 
-Currently, two official plugins are available:
+## 🚀 About the Project
+This project was built with **React + Vite** and styled using simple CSS. It uses the **TVmaze API** to fetch TV show and episode data, and currently displays ratings from TVmaze.  
+In the future, this will be linked with **IMDb ratings** for more accurate results.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ How It Works
+- Search for any TV show by name.  
+- The app fetches all episodes, grouped by season.  
+- Each episode’s rating is shown in a **color-coded heatmap**:
+  - Higher ratings → darker / richer colors  
+  - Lower ratings → lighter colors  
 
-## Expanding the ESLint configuration
+This makes it easy to spot trends, highlight fan-favorite episodes, or identify weaker seasons at a glance.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Use Cases
+- Quickly compare seasons of your favorite TV shows.  
+- Explore how audience reception changes over time.  
+- Great for fans, data nerds, or anyone curious about TV history.
+
+## 🔮 Future Plans
+- Replace TVmaze ratings with **IMDb episode ratings** for better accuracy.  
+- Add export / share options.  
+- Support more data visualizations beyond heatmaps.  
+
+---
+
+👉 Try it live here: [IMDb Heatmap on GitHub Pages](https://malhotrayash.github.io/imdb-tvshow-heatmap/)  
